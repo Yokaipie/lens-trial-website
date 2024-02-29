@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9d4c4;
+}
+.about{
+    background: url("about.png");
+    display: flex;
+    background-color: rgb(247, 224, 197);
+    overflow: hidden;
+    padding: 100px 0;
+
+}
+.inner{
+    width: 55%;
+    float: right;
+    background-color: #e9d4c4;
+    padding: 150px;
+}
+.text{
+    font-size: larger;
+}

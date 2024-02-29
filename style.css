@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carouselExampleSlidesOnly{
+    width: 100%;
+    max-width: 200px;
+
+}
+
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("len.png");
+    background-position-x: bottom;
+    background-size:cover ;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:#CD5C5C;
+    background: rgba(186, 12, 12, 0.2);
+    padding: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.25);
+}
+.content h1{
+    margin: 20px auto;
+    font-weight: 5000;
+    line-height:25px ;
+    font-size: 50px;
+    color:rgb(161, 40, 40);
+ 
+}
+.ctn{
+    padding: 8px 15px;
+    background: #CD5C5C;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+    color: #CD5C5C;
+}
+.carosel-item{
+width: 50px;
+height: 50px;
+
+}
+.container{
+    display: flex;
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    background-color:bisque;
+    padding: 70px 0;
+    bottom: 0px;
+    display: flex;
+}
+.row{
+    display:  flex ;
+    flex-wrap: wrap;
+}
+.footer-col{
+width: 25%;
+padding: 0 15px;
+
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(158, 18, 18);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
